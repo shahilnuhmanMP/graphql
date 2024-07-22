@@ -8,10 +8,11 @@ let authors = [{ id: "1", name: "author1", verified: true }];
 let reviews = [
   {
     id: "1",
-    ratig: 9,
+    rating: 9,
     content: "review1",
     author_id: "1",
     game_id: "1",
+    review_id: "1",
   },
 ];
 export default { games, authors, reviews };
